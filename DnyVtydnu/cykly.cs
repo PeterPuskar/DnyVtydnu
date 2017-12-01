@@ -58,10 +58,30 @@ namespace DnyVtydnu
 
         public static void HodnotVsReference()
         {
-            int hodnotovy = 6;
+            int hodnota1 = 6;
+            int hodnota2;
 
+            hodnota2 = hodnota1;
+
+            hodnota2++;
+            Console.WriteLine(hodnota1);
+            Console.WriteLine(hodnota2);
+
+            Auto auto1 = new Auto();
+            auto1.Barva = "cervena";
+            Auto auto2 = auto1;
+            auto2.Barva = "cerna";
+
+            Console.WriteLine(auto1.Barva);
+            Console.WriteLine(auto2.Barva);
 
         }
+
+        public static void PrebarviAuto(Auto auto)
+        {
+            auto.Barva = "bila";
+        }
+            
     }
 }
     // zvysok po deleni cislom %2 napriklad zvysok po deleni dvomi

@@ -4,7 +4,7 @@ using System.Text;
 
 namespace DnyVtydnu
 {
-    class auto
+    class Auto
     {
         public string Barva;
     }
