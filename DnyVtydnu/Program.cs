@@ -7,6 +7,11 @@ namespace DnyVtydnu
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World!");
+            //Cykly.CyklusWhile();
+            //Cykly.DoWhile();
+            Cykly.CyklusFor();
+            Console.ReadLine();
+
         }
     }
 }
